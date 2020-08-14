@@ -1,3 +1,4 @@
+##Run in mothur ver. 1.43
 ##make the contigs based in the Forward and reverse files for each sample. Trim to the overlapping region (since it is about 130 bp is covered totally for both F & R), only keep inserts if Q>30, and if there is a disagreement between F&R, keep as ambiguous unless the difference between both Q > 10
 make.contigs(file=malaga, deltaq=10, insert=30, trimoverlap=T, processors=20)
 summary.seqs(fasta=current)
