@@ -1,0 +1,2 @@
+##Run using blast ver. 2.7.1 in a v4 DB format. This line might not work if used in the new BLAST (Ver. 3 and above) and/or new DB formats (V5 and above)
+blastn  -use_index false -db /isg/shared/databases/blast/v4/nt -query malagatrim.contigs.good.good.unique.pick.precluster.fasta -evalue 1e-3 -perc_identity 90 -outfmt 6 -max_target_seqs 1 -num_threads 8 > blast_result_noclust_leo_nt_8_threads.txt
