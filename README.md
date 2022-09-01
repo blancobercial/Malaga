@@ -2,6 +2,8 @@
 # Zooplankton in the Bay of Malaga
 Scripts for the manuscript <I>Assessment of short-term spatio-temporal variability in the structure of mesozooplankton communities integrating microscopy and multigene high-throughput sequencing</I>
 
+Yebra, L., García-Gómez, C., Valcárcel-Pérez, N., Hernández De Rojas, A., Blanco-Bercial, L., Castro, M. C., Gómez-Jakobsen, F. and Mercado, J. M. (2022) Estuarine, Coastal, and Shelf Science, 276, 108038.
+
 https://doi.org/10.1016/j.ecss.2022.108038
 
 V9 directory contains the mothur script for the processing of the 18S V9 illumina files\
